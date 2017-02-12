@@ -25,7 +25,7 @@ SECRET_KEY = 'o1d+in9$cnk6olh!g4)6fyb+g^pb8b5gm(fyk+5_ho%pn&tdi@'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['impala.pythonanywhere.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
