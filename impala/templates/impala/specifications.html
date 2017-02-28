@@ -1,5 +1,16 @@
 {% extends 'impala/base.html' %}
 {% block content %}
+	<div id="menu">
+		<ul class="navigation">
+
+			<li class="menu-top"><a class="navlink" href="{% url 'index' %}">Главная</a></li>
+			<li class="menu-mid"><a class="activepage" href="{% url 'specifications' %}">Технические характеристики</a></li>
+			<li class="menu-mid"><a class="navlink" href="{% url 'gallery' %}">Фотогалерея</a></li>
+			<li class="menu-mid"><a class="navlink" href="{% url 'store' %}">ПРЕДЛОЖЕНИЯ АВТОМОБИЛЕЙ</a></li>
+			<li class="menu-bot"><a class="navlink" href="{% url 'about' %}">Наши контакты</a></li>
+		</ul>
+	</div>
+<!-- /NAVIGATION --><!-- MAIN -->
 	<div id="content-zone">
 		<p class="spec">Chevrolet Impala 1967 выпускался в двух вариантах: 2-хдверное купе и седан.</p>
 		<h2 class="spec">Технические характеристики</h2>

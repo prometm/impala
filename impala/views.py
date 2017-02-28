@@ -3,8 +3,8 @@ from django.shortcuts import render, get_object_or_404
 
 # Create your views here.
 
-def post_list(request):
-    return render(request, 'impala/post_list.html', {})
+def index(request):
+    return render(request, 'impala/index.html', {})
 
 def specifications(request):
     return render(request, 'impala/specifications.html', {})

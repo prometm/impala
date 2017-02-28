@@ -1,5 +1,17 @@
 {% extends 'impala/base.html' %}
 {% block content %}
+	<div id="menu">
+		<ul class="navigation">
+
+			<li class="menu-top"><a class="navlink" href="{% url 'index' %}">Главная</a></li>
+			<li class="menu-mid"><a class="navlink" href="{% url 'specifications' %}">Технические характеристики</a></li>
+			<li class="menu-mid"><a class="navlink" href="{% url 'gallery' %}">Фотогалерея</a></li>
+			<li class="menu-mid"><a class="navlink" href="{% url 'store' %}">ПРЕДЛОЖЕНИЯ АВТОМОБИЛЕЙ</a></li>
+			<li class="menu-bot"><a class="activepage" href="{% url 'about' %}">Наши контакты</a></li>
+		</ul>
+	</div>
+<!-- /NAVIGATION -->
+<!-- MAIN -->
 <div id="content-zone">
 	<div class="info">
 	<h1 class="contacts-header">Контактная информация</h1>
